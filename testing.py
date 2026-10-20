@@ -11,6 +11,7 @@ def main():
             tasks.append(new_task)
             print(f"Added: {new_task}")
         elif command =="view":
+            count = 1
             for task in tasks:
                 print(f"{count}. {task}")
                 count +=1
