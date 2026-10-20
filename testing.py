@@ -1,6 +1,6 @@
 def main():
     tasks = []
-    count = 1
+    
     while True:
         command = input("Enter a command('quit' to exit, 'done' when a task is completed): ").lower().strip()
 
